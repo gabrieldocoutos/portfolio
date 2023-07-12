@@ -1,10 +1,28 @@
 html, body {
     font-family: sans-serif;
-    background-color: rgb(17, 12, 30);
+    background-color: rgb(247, 247, 247);    
 }
 
-h1 {
-    color: white;
+html {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 576px;
+}
+
+ul {
+    margin: 0;
+}
+
+.section-title {
+    font-weight: bold;
 }
 
 * {
