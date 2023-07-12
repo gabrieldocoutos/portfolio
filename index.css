@@ -1,0 +1,12 @@
+html, body {
+    font-family: sans-serif;
+    background-color: rgb(17, 12, 30);
+}
+
+h1 {
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
